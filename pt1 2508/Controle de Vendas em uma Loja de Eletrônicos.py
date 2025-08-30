@@ -1,10 +1,10 @@
 vendas = []
 total = 0
-mais_caro = 0
-mais_barato = float('inf')
-produto_mais_caro = ''
-produto_mais_barato = ''
-produto_procurado = input('Qual produto você quer procurar? \n >>>')
+maiscaro = 0
+maisbarato = float('inf')
+produtomaiscaro = ''
+produtomaisbarato = ''
+produtoprocurado = input('Qual produto você quer procurar? \n >>>')
 encontrado = False
 while True:
     nome = input('Nome do produto (ou "sair" para encerrar): \n >>>')
@@ -27,9 +27,9 @@ while True:
         mais_barato = preco
         produto_mais_barato = nome
 
-    if nome.lower() == produto_procurado.lower():
+    if nome.lower() == produtoprocurado.lower():
         encontrado = True
     if encontrado:
-        print(f'O produto "{produto_procurado}" foi vendido.')
+        print(f'O produto "{produtoprocurado}" foi vendido.')
     else:  
-        print(f'O produto "{produto_procurado}" não foi vendido.')
+        print(f'O produto "{produtoprocurado}" não foi vendido.')

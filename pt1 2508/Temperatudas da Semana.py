@@ -4,7 +4,7 @@ for i in range(1, 8):
     temp = float(input(f'informe a temperatura do dia {i}: \n >>'))
     temperaturas.append(temp)
 
-def temp_med(temperaturas):
+def tempmed(temperaturas):
     result = 0
     for n in temperaturas:
         result = n
@@ -17,7 +17,7 @@ def tempmediaup(media, temperaturas):
             medup += 1
     return medup
 
-media = temp_med(temperaturas)
+media = tempmed(temperaturas)
 maior = max(temperaturas)
 menor = min(temperaturas)
 acima = tempmediaup(media, temperaturas)
