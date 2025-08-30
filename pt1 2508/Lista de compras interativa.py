@@ -1,8 +1,3 @@
-# Faça um programa que:
-# 1. Permita ao usuário adicionar itens a uma lista de compras.
-# 2. Caso o usuário digite "sair", o programa encerra.
-# 3. Mostre a lista final de compras organizada em ordem alfabética.
-
 estoque = []
 
 def armazenamento(estoque):

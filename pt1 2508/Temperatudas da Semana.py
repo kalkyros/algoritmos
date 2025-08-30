@@ -1,9 +1,3 @@
-# Crie um programa que:
-# 1. Receba as temperaturas de 7 dias e armazene em uma lista.
-# 2. Mostre a média das temperaturas da semana.
-# 3. Informe o dia mais quente e o dia mais frio.
-# 4. Mostre quantos dias ficaram acima da média.
-
 temperaturas = []
 
 for i in range(1, 8):

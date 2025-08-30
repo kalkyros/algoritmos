@@ -1,9 +1,3 @@
-# O sistema precisa:
-# 1. Guardar os produtos vendidos (nome e preço).
-# 2. Mostrar o valor total arrecadado.
-# 3. Identificar o produto mais caro e o mais barato do dia.
-# 4. Permitir consultar se um produto específico foi vendido
-
 vendas = []
 total = 0
 mais_caro = 0
